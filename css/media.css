@@ -1,0 +1,152 @@
+﻿@charset "utf-8";
+/*!
+ * 米维建站  一建轻松建站
+ * 详尽信息请看官网：http://www.miwinfo.com/
+ *
+ * Copyright 2014 米维建站
+ *
+ * 请尊重原创，保留头部版权
+ * 仅供学习参考使用，不可用于任何商业用途
+ *
+ * 客服QQ 974837117
+ */
+@media only screen and (max-width : 1400px) {
+	.banner-text {margin-top: -160px;}
+}
+@media only screen and (max-width : 1200px) {
+.content{ max-width: 910px; }
+.header .inmuen ul li a{ padding: 0 20px; }
+
+.header .logo{padding: 20px 0;}
+.header .inmuen {padding: 30px 0;}
+
+.banner-text {margin-top: -160px;}
+.banner-p1 {font-size: 36px; line-height: 42px;}
+
+.inabout-text-i {height: 280px;}
+.inabout-text-b {margin-top: 30px;}
+}
+@media only screen and (max-width : 1024px) {
+
+}
+@media only screen and (max-width : 910px) {
+.header{ padding: 0; }
+.header-t {display: none;}
+.header .logo{ padding: 5px 0; }
+.header .logo img{ height: 40px; width: auto; }
+.nav_handle{ display: block; }
+.header .inmuen{ float: none; clear: both; display: none;}
+.header .inmuen ul li{ float: none; }
+.header .inmuen ul li > a{ text-align: center; padding: 0; }
+.header .inmuen ul li .erji{ width: 100%; left: 0; margin-left: 0; }
+
+.inyous ul li {width: 31.33333%; margin: 10px 1%;}
+
+/*.wapbanner .pagination{ z-index: 9999; height: 30px; line-height: 30px; width: 100%; position: absolute; left: 0; bottom: 0; text-align: center; }
+.wapbanner .pagination .swiper-pagination-switch{ display: inline-block; margin: 0 3px; width: 10px; height: 10px; border-radius: 50%; background: #fff; }
+.wapbanner .pagination .swiper-active-switch{ background: #0069ab; }*/
+
+.showpro .info{ padding-left: 380px; min-height: 241px; }
+.showpro .info .pic{ width: 350px; height: 241px; }
+.nynews ul li{ padding: 20px 20px 20px 300px;}
+.nynews ul li .jj{ height: 90px; }
+.nynews ul li .date{ position: static; top: initial; margin-top: 0; padding: 0; border: 0;}
+.nynews ul li .date span{ display: inline-block; padding-right: 10px;}
+.nynews ul li .date em{ display: inline-block; margin-bottom: 0;}
+.nynews ul li .date .more{ display: none; }
+.shownews .tit{ font-size: 20px; margin-bottom: 10px; }
+.shownews .pre{ float:none; padding:0;}
+.shownews .fanh{ float:none; width:100%;}
+.shownews .pic{ padding: 0 50px; }
+.shownews .pic .prev, .shownews .pic .next{ width: 40px; height: 40px; line-height: 40px; margin-top: -20px; }
+.nymess .cntit{ font-size: 20px; }
+.nymess .nr .li{ width: 100%;  padding: 0 0 0 35px;}
+.nymess .nr .li1{ width: 100%;  padding: 0 0 0 35px;}
+
+.banner-text {margin-top: -100px;}
+.inadv {height: auto; padding: 30px 0;}
+.inadv-ul {position: static;}
+.inadv-li {margin-top: 0px;}
+
+.nyabout-box { margin-top: -20px; }
+
+}
+@media only screen and (max-width : 850px) {
+.nycase ul li .nyholipic {padding: 15px;}
+
+
+}
+@media only screen and (max-width : 640px) {
+.wapbanner{ background: #000;}
+.nybanner{ background: #000;}
+
+.inservice .nr li {width: 48%; margin: 0 1%; margin-bottom: 10px;}
+
+.inabout-pic,.inabout-text {width: 100%;}
+
+.inyous,.inservice,.inabout,.innews,.insearch{ padding: 30px 0; }
+.inyous ul li{ width: 48%; margin: 10px 1%; }
+.inyous ul li .sz{ width: 80px; height: 80px; line-height: 80px; font-size: 25px; }
+.inservice .lmtit,.inabout .lmtit,.innews .lmtit{ font-size: 20px; margin-bottom: 30px; }
+.innews .nr ul li{ width: 100%; margin: 5px 0; }
+.innews .more{ line-height: 35px; height: 35px; margin-top: 20px; }
+.insearch span{ font-size: 16px; }
+.insearch .nr{ margin: 0; }
+
+.footer-c {width: 100%; margin-bottom: 20px;}
+
+.nyabout-box {margin-top: -40px;}
+.nytop {height: 40px;}
+.nyabout {padding: 20px;}
+.nynav {width: 100%;}
+.nynav-i li {width: 31.33333%; margin: 0 1%; display: inline-block; float: left;}
+.nycontent {width: 100%; padding: 0;}
+
+.nynav{ padding: 20px 0; }
+.showpro .info{ padding: 0; min-height: 200px; }
+.showpro .info .pic{ width: 100%; height: auto; position: static; margin-bottom: 20px;}
+.nynews ul li{ padding:20px;}
+.nynews ul li .pic{ position: static; margin: 0 auto; }
+.nynews ul li .tit{ font-size: 16px; height: 40px; line-height: 40px; }
+.nynews ul li .date span{ font-size: 25px; }
+.shownews .sxp .lan{ width: 100%;float: none; height: 32px; line-height: 32px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 10px; font-size: 12px;}
+.shownews .sxp .ran{ width: 100%;float: none; height: 32px; line-height: 32px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px;}
+.shownews .sxp .ran .ico{ float: left; margin-left: 0; margin-right: 10px; }
+.nycase ul li{ width: 48%; }
+.nycase ul li .tit{ height: 30px; line-height: 30px; }
+.nycase ul li .nyholipic{ padding: 10px; }
+.nymess .nr .tijiao{ height: 40px; border-radius: 20px; line-height: 40px; }
+
+.banner-text {margin-top: -60px;}
+.banner-p1 {font-size: 18px; line-height: 22px;}
+.banner-p2 {font-size: 12px;}
+.banner-text a {margin: 10px auto 0; height: 30px; line-height: 30px; width: 100px;}
+.inadv-li {width: 100%; margin: 5px 0;}
+.prd-category{margin-left: 15%; margin-right: 15%;}
+}
+@media only screen and (max-width : 480px) {
+.banner-text {margin-top: -40px;}
+.banner-p2 {display: none;}
+.nynav-i li {width: 48%; margin: 0 1%; display: inline-block; float: left;}
+.nyabout {padding: 0 14px 14px;}
+.nyabout-box {margin-top: -10px;}
+
+.nypro-ul li {width: 49%; margin-right: 2%; padding: 10px; margin-top: 5px; margin-bottom: 5px;}
+.nypro-ul li:nth-child(2n) {margin-right: 0px;}
+.prd-category{margin-left: 15%; margin-right: 15%;}
+}
+@media only screen and (max-width : 450px) {
+
+}
+@media only screen and (max-width : 400px) {
+
+}
+@media only screen and (max-width : 360px) {
+
+}
+
+
+@media only screen and (min-width : 480px) {
+	.nypro-ul li:nth-child(3n) {margin-right: 0px;}
+}
+

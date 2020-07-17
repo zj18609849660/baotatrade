@@ -1,11 +1,384 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="favicon.ico">
-    <title>BAOTA OFFICAL WEBSITE</title>
+	<meta charset="utf-8">
+	<link href="favicon.ico" rel="shortcut icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BAOTA TRADING</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/media.css" rel="stylesheet" type="text/css">
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css">
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="js/idangerous.swiper.min.js"></script>
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.2.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			new WOW().init();
+			$(".imgbox").hover(function () {
+				$(this).find("img").eq(0).addClass("scale-1x")
+			}, function () {
+				$(this).find("img").eq(0).removeClass("scale-1x")
+			})
+		})
+	</script>
 </head>
+
 <body>
-<p>BAOTA OFFICAL WEBSITE</p>
+
+	<div class="smallest-screen"></div>
+
+	<div class="webmain">
+
+		<div class="header">
+			<div class="content">
+				<a href="#">
+					<div class="logo"><img src="images/logo.png"></div>
+				</a>
+				<div class="nav_handle"><em class="middle_holder"></em><b class="middle"><i class="l_1"></i><i
+							class="l_2"></i></b></div>
+				<div class="inmuen">
+					<ul>
+						<li><a href="#" class="on">HOME</a></li>
+						<li><a href="#aboutUs">ABOUT</a></li>
+						<li><a href="#productDisplay">PRODUCT</a></li>
+						<li><a href="#contactUs">CONTACT</a></li>
+						</li>
+						<div class="clean"></div>
+					</ul>
+				</div>
+				<div class="clean"></div>
+			</div>
+		</div>
+
+		<div class="wapbanner">
+			<div class="banner-text">
+				<p class="banner-p1">Your Dedicated<br />Medical Device Partner</p>
+				<p class="banner-p2">Baota export - heal the world
+				</p>
+				<!-- <p class="banner-p2">product quality, regulatory compliance, on-time delivery, and manufacturing efficiency</p> -->
+			</div>
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="images/banner.jpg"></div>
+				<div class="swiper-slide"><img src="images/banner.jpg"></div>
+				<div class="swiper-slide"><img src="images/banner.jpg"></div>
+			</div>
+			<div class="pagination"></div>
+
+		</div>
+
+		<div class="inadv">
+			<div style="position: relative;" class="content">
+				<ul class="inadv-ul">
+					<li style="background: url(images/zs31.png) no-repeat bottom right #34a7e0;" class="inadv-li">
+						<p class="inadv-p1">COMPLIANCE</p>
+						<p class="inadv-p2">We provide the verfication of the CE & FDA certification to ensure the quality of products.</p>
+					</li>
+					<li style="background: url(images/zs41.jpg) no-repeat bottom right #5575ec;" class="inadv-li">
+						<p class="inadv-p1">LOGISTICS</p>
+						<p class="inadv-p2">We provide the fastest logistics service to ensure that customers receive the goods on time.</p>
+					</li>
+					<li style="background: url(images/zs51.png) no-repeat bottom right #8465eb;" class="inadv-li">
+						<p class="inadv-p1">INSPECTION</p>
+						<p class="inadv-p2">We cooperate with SGS team, Do INSPECTION,Before clients collect the goods.
+						</p>
+					</li>
+					<div class="clean"></div>
+				</ul>
+			</div>
+		</div>
+
+		<div class="inyous">
+			<div class="content">
+				<div class="lmtit">
+					<p class="en">PRODUCT CATEGORIES</p>
+				</div>
+				<div class="prd-category">
+					<ul>
+						<li class="inyous-c wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">
+							<p>Mask</p>
+							<span></span>
+						</li>
+						<li class="inyous-c wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+							<p>Gowns</p>
+							<span></span>
+						</li>
+						<li class="inyous-c wow bounceInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
+							<p>Gloves</p>
+							<span></span>
+						</li>
+						<li class="inyous-c wow bounceInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
+							<p>Wipes</p>
+							<span></span>
+						</li>
+						<li class="inyous-c wow bounceInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+							<p>Sanitiser</p>
+							<span></span>
+						</li>
+						<div class="clean"></div>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="productDisplay" class="inservice">
+			<div class="content">
+				<div class="lmtit">
+					<p class="en">PRODUCT DISPLAY</p>
+				</div>
+				<ul class="nr">
+					<a target="_blank" href="/pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e1.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Mask-N95</p>
+						</li>
+					</a>
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e1.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Mask-KN95</p>
+						</li>
+					</a>
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e1.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Mask-KN95(CDC NIOSH >98)</p>
+						</li>
+					</a>
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e1.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Mask-KN95 (Medical)</p>
+						</li>
+					</a>
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e1.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Disposable Medical Surgical Mask (Non-sterile)</p>
+						</li>
+					</a>
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e1.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Disposable Medical Mask (Non-sterile)</p>
+						</li>
+					</a>
+
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e1.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Disposable Mask (Non-sterile)</p>
+						</li>
+					</a>
+
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e2.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Disposable Gown AAMI Level 1</p>
+						</li>
+					</a>
+
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e2.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Disposable Gown AAMI Level 2</p>
+						</li>
+					</a>
+
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e2.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Disposable Gown AAMI Level 3</p>
+						</li>
+					</a>
+
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e2.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Disposable Gown AAMI Level 4</p>
+						</li>
+					</a>
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e3.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Disposable Nitrile  Examination Gloves  (NOT MADE IN CHINA)</p>
+						</li>
+					</a>
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e3.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Disposable Nitrile Examination Gloves</p>
+						</li>
+					</a>
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e3.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Sterile Latex  Examination(Surgical)  Gloves</p>
+						</li>
+					</a>
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e3.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Vinyl Disposable Examination Glove</p>
+						</li>
+					</a>
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e4.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Alcohol Wipes</p>
+						</li>
+					</a>
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e5.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Water freehand sanitaizer gel</p>
+						</li>
+					</a>
+					<a target="_blank" href="pdf/eg.pdf">
+						<li>
+							<div>
+								<img width="100%" height="250px" src="images/example/e5.jpg">
+								<span></span>
+							</div>
+							<p class="inservice-text">Water freehand sanitaizer gel</p>
+						</li>
+					</a>
+					<div class="clean"></div>
+				</ul>
+			</div>
+		</div>
+
+		<div id="aboutUs" class="inabout" style="background: url(images/002.jpg) no-repeat top #e6f0fa;">
+			<div class="content">
+				<div class="lmtit">
+					<p style="color: #fff;" class="en">ABOUT US</p>
+				</div>
+				<div class="nr">
+					<div class="inabout-pic">
+						<img width="100%" height="auto" src="images/tp1.jpg">
+					</div>
+					<div class="inabout-text">
+						<div class="inabout-text-t">
+							<p>Dalian BAOTA Trading co. ,Ltd</p>
+							<span></span>
+						</div>
+						<div class="inabout-text-i">
+							<p style="font-size: 14px;  color: #5a5a5a; line-height: 22px;">
+								From April 2020 to the present, BAOTA, which has 12 years of experience in import and
+								export trading company, began to assist in procurement at the request of international
+								customers and business partners. Accumulated the first-line experience in China's PPE
+								procurement market.
+								In line with the tenet of "factory integrity, high quality, lowest price", we have
+								selected the best factories in China to make our world a better place!
+							</p><br />
+							<p style="font-size: 14px;  color: #5a5a5a; line-height: 12px;">
+								Dalian BAOTA Trading co. ,Ltd is your best purchasing partner!</p>
+						</div>
+					</div>
+					<div class="clean"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="content">
+				<div class="footer-c">
+					<div class="footer-c-t">
+						<p>Sitemap</p>
+						<span></span>
+					</div>
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#productDisplay">PRODUCT</a></li>
+						<li><a target="_blank" href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm">FDA
+								VEFIRICATION</a></li>
+						<li><a target="_blank"
+								href="https://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=directive.notifiedbody&dir_id=13">CE
+								VEFIRICATION</a></li>
+					</ul>
+				</div>
+				<div id="contactUs" class="footer-c">
+					<div class="footer-c-t">
+						<p>Contact us</p>
+						<span></span>
+					</div>
+					<div class="footer-c-b">
+						<p style="height: 30px; line-height: 30px;"><i class="fa fa-user"></i>Peng Wang</p>
+						<p style="height: 30px; line-height: 30px;"><i class="fa fa-map-marker"></i>Room 307, UNIT 1,
+							YULAN, CENTER YUJING, NO.13 DAGONG STREET, ZHONGSHAN DISTRICT, DALIAN, CHINA.</p>
+						<p style="height: 30px; line-height: 30px;"><i
+								class="fa fa-envelope"></i>wangpeng@vdka6100.com.cn
+						</p>
+						<p style="height: 30px; line-height: 30px;"><i class="fa fa-fax"></i>+8613998636796</p>
+					</div>
+				</div>
+				<div class="clean"></div>
+				<div class="banq">Copyright © 2008-2020 Dalian BAOTA Trading co. ,Ltd. All rights reserved.</div>
+			</div>
+		</div>
+
+		<div class="page-down"><i class="fa fa-angle-up"></i></div>
+		<script type="text/javascript" src="js/web.js"></script>
+		<script type="text/javascript" src="js/bideo.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</div>
+
 </body>
-</html> 
+
+</html>

@@ -1,0 +1,227 @@
+@charset "utf-8";
+/*!
+ * 米维建站  一建轻松建站
+ * 详尽信息请看官网：http://www.miwinfo.com/
+ *
+ * Copyright 2014 米维建站
+ *
+ * 请尊重原创，保留头部版权
+ * 仅供学习参考使用，不可用于任何商业用途
+ *
+ * 客服QQ 974837117
+ */
+.content { max-width:1200px; height: auto; margin: 0 auto; padding:0 10px; box-sizing:border-box;}
+img {max-width: 100%;}
+.page-down {width: 30px;height: 30px;background: #999;position: fixed;bottom: 30px;right: 30px;text-align: center;line-height: 30px;font-size: 18px;color: #fff;cursor: pointer;display: none;z-index: 99999;}
+.page-down:hover {background: #434343;}/* 回到顶部 */
+.table{ display:table; width:100%; height:100%;}
+.table .cell{ display:table-cell; text-align:center; vertical-align:middle;}
+.smallest-screen {position: fixed;z-index: 999999;width: 100%;height: 100%;background: url(../images/displaynone.png) no-repeat center #666;display: none;}
+@media only screen and (max-width : 319px) {
+.smallest-screen {display: block;} /*判断屏幕小于319px隐藏显示网站*/
+}
+.white{ color:#fff !important;}
+.webmain{ width:100%; overflow:hidden;}
+
+.lmtit .ch {font-size: 24px; color: #404d5e; font-weight: bold; text-align: center;}
+.lmtit span {display: block; width: 50px; height: 2px; background-color: #0069ab; margin: 14px auto;}
+.lmtit .en {font-size: 24px; color: rgb(64, 77, 94); text-align: center;}
+
+.middle_holder { display: inline-block; font-size: 0; width: 0; height: 50px;vertical-align: middle;}
+.middle {display: inline-block;vertical-align: middle; width: 100%;}
+.nav_handle { display: none; position: relative; width: 27px; padding: 0 15px; cursor: pointer; float: right; }
+.nav_handle b { width: 27px; height: 10px; position: relative; }
+.nav_handle b i { display: block; position: absolute; left: 0; right: 0; height: 2px; background-color: #404d5e; top: 0; -webkit-transform-origin: 29% 50%; transform-origin: 29% 50%;  transition: all .3s ease; -webkit-transition: all .3s ease; }
+.nav_handle b .l_2 { top: auto; bottom: 0; }
+.nav_handle.on b i{transform: rotate(45deg); background: #0069ab;}
+.nav_handle.on b .l_2 { transform: rotate(-45deg); }
+
+#container { overflow: hidden; position: absolute;  top: 0; left: 0; right: 0; bottom: 0; }
+#background_video { position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%);object-fit: cover; height: 100%; width: 100%;}
+#video_cover { position: absolute; width: 100%; height: 100%; background: url('../images/video_cover.jpg') no-repeat; background-size: cover; background-position: center; }
+#video_controls {  position: absolute; left: 50%; transform: translate(-50%, 0);}
+#play img { width: 100px; }
+#pause img { width: 90px; }
+#pause { display: none;}
+#video_controls{ display: none; }
+
+/* .header{width: 100%; border-bottom: 2px solid #0069ab;} */
+.header-t {height: 40px; line-height: 40px; background-color: rgb(64, 77, 94); font-size: 12px; color: #fff;}
+.header-t-l {float: left;}
+.header-t-r {float: right;}
+.header-t-r p {display: inline-block; margin: 0 5px;}
+.header-t-r p i {display: inline-block; margin-right: 5px;}
+.logo img{
+    height: 50px;
+}
+.header .logo{ float: left; padding: 30px 0;}
+.header .inmuen{ float: right; line-height: 40px; padding: 40px 0; }
+.header .inmuen ul li{ float: left; position: relative;}
+.header .inmuen ul li > a{ display: block; padding: 0 25px; color: #404d5e; font-size: 14px; font-weight: bold;}
+.header .inmuen ul li > a:hover{ background: #ff824c; color: #fff;}
+.header .inmuen ul li > a.on{ background: #ff824c; color: #fff;}
+
+.wapbanner{display: block; width: 100%; height: auto; position: relative;}
+
+.banner-text {position: absolute; margin-top: -140px; top: 50%; left: 0; width: 100%; box-sizing: border-box; padding: 0 30px; z-index: 9999;}
+.banner-p1 {font-size: 42px; color: #5a5a5a; line-height: 50px; text-align: center; font-weight: bold;}
+.banner-p2 {font-size: 16px; color: rgb(102, 113, 135); text-align: center; margin: 10px 0;}
+.banner-text a {display: block; transition: all 0.3s; width: 140px; background-color: #ff824c; font-size: 14px; color: #fff; line-height: 40px; height: 40px; text-align: center; margin: 40px auto 0;}
+.banner-text a:hover {color: #fff; background-color: #0069ab;}
+
+.inadv {position: relative; height: 140px;}
+.inadv-ul {position: absolute; m width: 100%; top: 0; left: 0; z-index: 9999; display: block;}
+.inadv-li {display: inline-block; transition: all 0.5s; width: 31.3333%; margin: -110px 1% 0; height: 220px; float: left; box-sizing: border-box; padding: 30px;}
+.inadv-p1 {font-size: 20px; color: rgb(255, 255, 255); font-weight: bold; display: block; height: 26px; overflow: hidden;}
+.inadv-p2 {font-size: 14px; display: block; margin-top: 20px; color: rgb(255, 255, 255); line-height: 22px; height: 66px; overflow: hidden;}
+.inadv-li a {display: block; margin-top: 20px; width: 120px; font-size: 14px; color: rgba(255,255,255,1); font-weight: bold; line-height: 30px; border-bottom: 1px solid #fff;}
+.inadv-li a:hover {color: #fff;}
+.inadv-li:hover {transform: rotateX(360deg);}
+
+.inyous {background-color: #fff; padding: 70px 0;}
+.inyous ul {display: block; padding: 80px 0 20px;}
+.inyous ul li{position: relative; transition: all 0.3s; display: block; box-sizing: border-box; border: 2px solid #0186d5; width: 14.6666%; margin: 10px 1%; float: left; background: url(../images/fenl_bg.png) no-repeat center; background-size: 100% 100%;}
+.inyous ul li p {color: rgba(64,77,94,1); font-size: 16px; text-align: center; font-weight: bold; line-height: 80px;}
+.inyous ul li span {display: block; position: absolute; top: -20px; left: 50%; margin-left: -20px; width: 40px; height: 40px; background: url(../images/yl_13.png) no-repeat center; background-size: 100% 100%;}
+.inyous ul li:hover {background: url() #fb824e; border: 2px solid #fb824e;}
+.inyous ul li:hover p {color: #fff;} 
+
+.inservice{ padding: 50px 0 70px; background: #e6f0fa; }
+.inservice .lmtit{ font-size: 40px; color: #222; text-align: center; margin-bottom: 40px; }
+.inservice .nr li {display: inline-block; width: 23%; margin: 0 1%; float: left;}
+.inservice-pic {position: relative;}
+.inservice-pic span {display: block; position: absolute; top: 0; left: 0; width: 62px; height: 48px; background: url(../images/yl_01.png) no-repeat top left;}
+.inservice-text {display: block; transition: all 0.3s; width: 100%; padding: 0 10px; box-sizing: border-box; font-size: 14px; text-align: center; overflow: hidden; height: 50px; line-height: 50px; background-color: #fb824e; color: #fff;}
+.inservice-text:hover {background-color: #0069ab;}
+
+.inabout{ padding: 70px 0 60px; }
+.inabout .lmtit{ font-size: 40px; color: #fff; text-align: center; margin-bottom: 40px; }
+.inabout .nr{box-shadow: box-shadow; padding: 10px; background-color: #fff; }
+.inabout-pic,.inabout-text {display: inline-block; width: 50%; float: left;}
+.inabout-text {box-sizing: border-box; padding: 20px;}
+.inabout-text-t p {font-size: 20px; color: rgb(64, 77, 94); line-height: 30px; font-weight: bold;}
+.inabout-text-t span {display: block; width: 100px; height: 1px; background-color: #0186d5; margin: 10px 0 20px;}
+.inabout-text-i {height: 160px; overflow: hidden;}
+.inabout-text-b {width: 180px; height: 40px; background: #fb824e; transition: all 0.3s; font-size: 14px; display: block; color: #fff; line-height: 40px; text-align: center; font-weight: bold; margin-top: 40px; }
+.inabout-text-b:hover {background-color: #0069ab; color: #fff;}
+
+.innews{ padding: 70px 0; background: #e6f0fa; }
+.innews .lmtit{ font-size: 40px; color: #222; text-align: center; margin-bottom: 40px; }
+.innews .nr ul li{ display: block; width: 31.333333%; margin: 0 1%; float: left; overflow: hidden; }
+.innews .nr ul li .wz{ padding: 10px 0; }
+.innews .nr ul li .pic {position: relative;}
+.innews .nr ul li .pic img {display: block; width: 100%; height: auto;}
+.innews .nr ul li .pic span {position: absolute; top: 0; left: 0; width: 100%; height: 16px; display: block;}
+.innews .nr ul li .wz .tit{ height: 20px; line-height: 20px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; font-weight: bold; color: #5A5A5A; }
+.innews .nr ul li .wz .date{ height: 25px; line-height: 25px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; color: #999; }
+.innews .nr ul li .wz .jj{ font-size: 14px; line-height: 22px; color: #5A5A5A; overflow: hidden; height: 66px; }
+.innews .more{ width: 180px; height: 40px; background: #fb824e; transition: all 0.3s; font-size: 14px; display: block; color: #fff; line-height: 40px; text-align: center; font-weight: bold; margin: 40px auto 0; }
+.innews .more:hover {background-color: #0069ab;}
+
+.insearch{ padding: 40px 0; background: rgb(255, 130, 76); line-height: 50px;}
+.insearch span{ font-size: 22px; color: #fff; line-height: 22px; float: left; margin: 14px 0;}
+.insearch .nr{ margin-left: 20px; width: 100%; float: right; max-width: 430px; display: inline-block; background: #fff; height: 50px; line-height: 50px; padding-right: 55px; position: relative; box-sizing: border-box; }
+.insearch .nr .text{ font-size: 14px; padding: 0 15px; height: 50px; line-height: 50px; width: 100%; box-sizing: border-box; }
+.insearch .nr .sub{ position: absolute; width: 55px; height: 50px; line-height: 50px; right: 0; top: 0; outline: none; font-size: 25px; }
+
+.footer{ background: rgb(64, 77, 94); padding: 40px 0 0;}
+.footer-c {display: inline-block; width: 50%; float: left;}
+.footer-c-t {font-size: 20px; color: rgb(255, 255, 255); }
+.footer-c-t span {display: block; width: 40px; height: 1px; background-color: #0186d5; margin: 10px 0;}
+.footer-c ul li {display: inline-block; width: 45%; margin-bottom: 4px; margin-right: 5%; float: left; height: 40px; line-height: 40px; border-bottom: 1px solid #546174;}
+.footer-c ul li a {display: block; color: rgba(132,144,170,1); font-size: 14px; line-height: 30px; margin: 5px 0; transition: all 0.3s;}
+.footer-c ul li a:hover {color: rgba(255,255,255,1);}
+.footer-c-b {margin-top: 20px;}
+.footer-c-b p {font-size: 14px; color: rgb(132, 144, 170); line-height: 24px; overflow: hidden;}
+.footer-c-b p i {display: inline-block; width: 20px; text-align: center; margin-right: 5px;}
+.footer .banq{ padding: 14px 0; font-size: 12px; text-align: center; line-height: 22px; color: rgb(132, 144, 170); }
+.footer .banq a{ font-weight: bold; color: #0069ab; }
+
+.weizhi{ height: 50px; line-height: 50px; font-size: 14px; color: #666; border-bottom: 1px solid #dfdfdf; }
+.weizhi a{ color: #666; }
+.weizhi span{ font-weight: bold; color: #0069ab; }
+
+.nyabout-box {margin-top: -100px; position: relative; z-index: 99999;}
+.nyabout {background-color: #fff; box-sizing: border-box; padding: 30px;}
+.nytop {background: rgba(1,134,213,.5); width: 100%; height: 50px;}
+.nynav {display: inline-block; width: 20%; float: left;}
+.nynav-t .ch {font-size: 20px; color: rgb(64, 77, 94); font-weight: bold;}
+.nynav-t .en {font-size: 20px; color: rgb(64, 77, 94);}
+
+.nynav-i {display: block; margin: 20px 0;}
+.nynav-i li {transition: all 0.3s; position: relative; width: 100%; border-bottom: 1px solid #d0d0d0; font-size: 14px; height: 40px; line-height: 40px; box-sizing: border-box; padding: 0 10px; overflow: hidden;}
+.nynav-i li i {font-size: 16px; color: #fff; position: absolute; right: 10px; top: 0; line-height: 40px;}
+.nynav-i li:hover {background-color: #0069ab; color: #fff;}
+.nynav-i .on {background-color: #0069ab; color: #fff;}
+
+.nynav-fax {box-sizing: border-box; padding-left: 60px; padding-top: 7px; padding-bottom: 7px; text-align: left; width: 100%; height: 58px; background: url(../images/zs7.png) no-repeat left #c9d7da; margin-bottom: 10px;}
+.nynav-tel {box-sizing: border-box; padding-right: 60px; padding-top: 7px; padding-bottom: 7px; text-align: right; width: 100%; height: 58px; background: url(../images/zs8.png) no-repeat right #45a1dc;}
+.nynav-b-p1 {font-size: 14px; color: #fff; line-height: 22px; height: 22px; overflow: hidden;}
+
+.nycontent {width: 80%; float: left; box-sizing: border-box; padding-left: 30px;}
+.nycontent-c {width: 100%; box-sizing: border-box; padding: 20px 0;}
+.nypro-ul {display: block; padding: 20px 0;}
+.nypro-ul li {display: inline-block; box-sizing: border-box; padding: 15px; border: 1px solid rgb(238, 238, 238); width: 32%; margin-right: 2%; margin-bottom: 10px; margin-top: 10px; transition: all 0.3s; float: left;}
+.nypro-ul li img {display: block; width: 100%; height: auto;}
+.nypro-ul li p {font-size: 14px; color: #5a5a5a; font-weight: block; text-align: center; line-height: 30px;}
+.nypro-ul li:hover {border: 1px solid #0069ab;}
+
+.page{ text-align:center; padding: 10px 0; }
+.page a{ display:block; height:30px; width:30px; overflow:hidden;  background: #f5f5f5; display:inline-block; line-height:30px; color:#666; margin-right: -3px;}
+.page a:hover{ color:#fff; background:#333;}
+.page a.on{ background:#dfdfdf;}
+.page a.on:hover{ color:#666;}
+.page a i{ line-height:30px;}
+
+.showpro{ padding: 30px 0; }
+.showpro .info{ position: relative; padding-left: 500px; min-height: 366px; margin-bottom: 20px;}
+.showpro .info .pic{ position: absolute; width: 470px; height: 366px; overflow: hidden; left: 0 ; top: 0; }
+.showpro .info .tit{ font-size: 18px; border-bottom: 1px solid #e2e2e2; font-weight: bold; line-height: 30px; margin-bottom: 20px; }
+.showpro .info .jj{ line-height: 30px; font-size: 14px; color: #666; margin-bottom: 20px; }
+.showpro .lmtit{ padding: 0 10px; line-height: 40px; font-size: 16px; font-weight: bold; background: #f1f1f1; border: 1px solid #dfdfdf; }
+.showpro .detail{ padding: 10px 0; font-size: 14px; line-height: 30px; color: #555; }
+.showpro .sxp a{ display: block; padding: 0 20px; border: 1px solid #0069ab; display:block; clear: both; max-width: 400px; margin: 10px 0; height: 30px; line-height: 30px; font-size: 14px; color: #0069ab;}
+.showpro .sxp a:hover{ background: #0069ab; color: #fff; }
+
+.nynews {padding-bottom: 20px;}
+.nynews ul li{ display: block; padding: 20px 20px 20px 300px; min-height: 200px; position: relative; border-bottom: 1px solid #e5e5e5; background: #fff; transition: all 0.5s;}
+.nynews ul li .pic{ width: 270px; overflow: hidden; position: absolute; left: 0; top: 20px; }
+.nynews ul li .date{ font-size: 14px; color: #999; }
+.nynews ul li .tit{ font-size: 18px; color: #141414; height: 55px; line-height: 55px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.nynews ul li .jj{ font-size: 14px; color: #999999; line-height: 30px; height: 120px; overflow: hidden; }
+.nynews ul li a:hover .tit {color: #0069ab;}
+
+
+.shownews{ padding: 20px 0; }
+.shownews .tit{ font-size: 16px; font-weight: bold; color: #0069ab; text-align: center; margin-bottom: 10px;}
+.shownews .date{ line-height: 16px; text-align: center; font-size: 14px; color: #5A5A5A;}
+.shownews .date span{ display: inline-block; padding: 0 10px; line-height: 22px;}
+.shownews .nr{ padding: 20px 0; font-size: 14px; line-height: 30px; color: #666;}
+.shownews .nr a{ color: #cf0b2c; text-decoration: underline; }
+.shownews .pic{ text-align: center; padding: 0 100px; position: relative; max-width: 600px; margin: 0 auto 20px;}
+.shownews .pic img{ width: 100%; height: auto; }
+.shownews .pic .prev, .shownews .pic .next{display: block; width: 60px; height: 60px; line-height: 60px; background: rgba(0,0,0,.3); color: #fff; text-align: center; position: absolute; font-size: 22px; transition: all 0.5s;}
+.shownews .pic .prev{ top: 50%; margin-top: -30px; left: 0; }
+.shownews .pic .next{ top: 50%; margin-top: -30px; right: 0; }
+.shownews .pic .prev:hover, .shownews .pic .next:hover{ background: rgba(0,0,0,.7); }
+.shownews .sxp a{ display: block; padding: 0 20px; border: 1px solid #0069ab; display:block; clear: both; max-width: 400px; margin: 10px 0; height: 30px; line-height: 30px; font-size: 14px; color: #0069ab;}
+.shownews .sxp a:hover{ background: #0069ab; color: #fff; }
+
+.nycase {padding: 20px 0;}
+.nycase ul li {display: block; width: 31.3333333%; margin: 5px 1%; float: left;}
+.nycase ul li .nyholipic {width: 100%; background-color: #f4f4f4; box-sizing: border-box; padding: 30px;}
+.nycase ul li .tit {display: block; height: 50px; overflow: hidden; box-sizing: border-box; padding: 0 10px; font-size: 14px; text-align: center; color: #6f6f6f; line-height: 50px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.nycase ul li .tit:hover {text-decoration: underline;}
+
+.nymess{ padding: 0 0 30px; }
+.nymess .cntit{ font-size: 30px; color: #000; text-align: center; margin-bottom: 5px;}
+.nymess .entit{ color: #bcbcbc; font-size: 14px; text-align: center; margin-bottom: 20px;}
+.nymess .nr{ max-width: 850px; box-sizing: border-box; position: relative; margin: 0 auto; }
+.nymess .nr .li{ display: block; height: 45px; width: 50%; box-sizing: border-box; float: left; padding: 0 55px 0 35px; position: relative; margin: 10px 0;}
+.nymess .nr .li .text{ width: 100%; height: 45px; line-height: 45px; box-sizing: border-box; background: #f3f3f3; padding: 0 20px; font-size: 14px; color: #999;}
+.nymess .nr .li span{ width: 35px; height: 45px; text-align: center; line-height: 45px; position: absolute; left: 0; top: 0; display: block; color: #d70b1b;}
+.nymess .nr .li1{ display: block; height: auto; width: 100%; box-sizing: border-box; float: left; padding: 0 55px 0 35px; position: relative; margin: 10px 0;}
+.nymess .nr .li1 .textarea{ color: #999; font-size: 14px; width: 100%; height: 120px; background: #f3f3f3; line-height: 25px; padding: 10px 20px; box-sizing: border-box; border: 0px; }
+.nymess .nr .tijiao{ width: 200px; height: 50px; font-size: 18px; color: #fff; display: block; background: #8cd635; border-radius: 25px; text-align: center;line-height: 50px; transition: all 0.5s; margin: 10px auto;}
+.nymess .nr .tijiao:hover{ background: #8cd635; }
+.prd-category{margin-left: 25%; margin-right: 15%;}
