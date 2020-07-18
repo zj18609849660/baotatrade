@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="miwinfo.com" />
+  <link href="favicon.ico" rel="shortcut icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAOTA TRADING</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/media.css" rel="stylesheet" type="text/css">
+  <link href="css/reset.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css">
+  <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="js/idangerous.swiper.min.js"></script>
+  <script type="text/javascript" src="js/jquery.SuperSlide.2.1.2.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      if (getQueryString("menu") !== '' && getQueryString("menu") !== undefined && getQueryString("menu") !== null) {
+        $("#mask").show();
+        $("#gowns").hide();
+        $("#gloves").hide();
+        $("#wipes").hide();
+        $("#sanitiser").hide();
+        $("#gowns-tab li").removeClass("on");
+        $("#gloves-tab li").removeClass("on");
+        $("#wipes-tab li").removeClass("on");
+        $("#sanitiser-tab li").removeClass("on");
+        $("#mask-tab li").addClass("on");
+      }
+
+      if (getQueryString("mask") !== '' && getQueryString("mask") !== undefined && getQueryString("mask") !== null) {
+        $("#mask").show();
+        $("#gowns").hide();
+        $("#gloves").hide();
+        $("#wipes").hide();
+        $("#sanitiser").hide();
+        $("#gowns-tab li").removeClass("on");
+        $("#gloves-tab li").removeClass("on");
+        $("#wipes-tab li").removeClass("on");
+        $("#sanitiser-tab li").removeClass("on");
+        $("#mask-tab li").addClass("on");
+      }
+
+      if (getQueryString("gowns") !== '' && getQueryString("gowns") !== undefined && getQueryString("gowns") !== null) {
+        $("#mask").hide();
+        $("#gowns").show();
+        $("#gloves").hide();
+        $("#wipes").hide();
+        $("#sanitiser").hide();
+        $("#mask-tab li").removeClass("on");
+        $("#gloves-tab li").removeClass("on");
+        $("#wipes-tab li").removeClass("on");
+        $("#sanitiser-tab li").removeClass("on");
+        $("#gowns-tab li").addClass("on");
+      }
+
+      if (getQueryString("gloves") !== '' && getQueryString("gloves") !== undefined && getQueryString("gloves") !== null) {
+        $("#mask").hide();
+        $("#gowns").hide();
+        $("#gloves").show();
+        $("#wipes").hide();
+        $("#sanitiser").hide();
+        $("#mask-tab li").removeClass("on");
+        $("#gowns-tab li").removeClass("on");
+        $("#wipes-tab li").removeClass("on");
+        $("#sanitiser-tab li").removeClass("on");
+        $("#gloves-tab li").addClass("on");
+      }
+
+      if (getQueryString("wipes") !== '' && getQueryString("wipes") !== undefined && getQueryString("wipes") !== null) {
+        $("#mask").hide();
+        $("#gowns").hide();
+        $("#gloves").hide();
+        $("#wipes").show();
+        $("#sanitiser").hide();
+        $("#mask-tab li").removeClass("on");
+        $("#gowns-tab li").removeClass("on");
+        $("#gloves-tab li").removeClass("on");
+        $("#sanitiser-tab li").removeClass("on");
+        $("#wipes-tab li").addClass("on");
+      }
+
+      if (getQueryString("sanitiser") !== '' && getQueryString("sanitiser") !== undefined && getQueryString("sanitiser") !== null) {
+        $("#mask").hide();
+        $("#gowns").hide();
+        $("#gloves").hide();
+        $("#wipes").hide();
+        $("#sanitiser").show();
+        $("#mask-tab li").removeClass("on");
+        $("#gowns-tab li").removeClass("on");
+        $("#gloves-tab li").removeClass("on");
+        $("#wipes-tab li").removeClass("on");
+        $("#sanitiser-tab li").addClass("on");
+      }
+
+      new WOW().init();
+      $(".imgbox").hover(function () {
+        $(this).find("img").eq(0).addClass("scale-1x");
+      }, function () {
+        $(this).find("img").eq(0).removeClass("scale-1x");
+      })
+      $("#mask-tab").click(function () {
+        $("#gowns-tab li").removeClass("on");
+        $("#gloves-tab li").removeClass("on");
+        $("#wipes-tab li").removeClass("on");
+        $("#sanitiser-tab li").removeClass("on");
+        $("#mask-tab li").addClass("on");
+        $("#gowns").hide();
+        $("#gloves").hide();
+        $("#wipes").hide();
+        $("#sanitiser").hide();
+        $("#mask").show();
+      });
+      $("#gowns-tab").click(function () {
+        $("#mask-tab li").removeClass("on");
+        $("#gloves-tab li").removeClass("on");
+        $("#wipes-tab li").removeClass("on");
+        $("#sanitiser-tab li").removeClass("on");
+        $("#gowns-tab li").addClass("on");
+        $("#mask").hide();
+        $("#gloves").hide();
+        $("#wipes").hide();
+        $("#sanitiser").hide();
+        $("#gowns").show();
+      });
+      $("#gloves-tab").click(function () {
+        $("#mask-tab li").removeClass("on");
+        $("#gowns-tab li").removeClass("on");
+        $("#wipes-tab li").removeClass("on");
+        $("#sanitiser-tab li").removeClass("on");
+        $("#gloves-tab li").addClass("on");
+        $("#mask").hide();
+        $("#gowns").hide();
+        $("#wipes").hide();
+        $("#sanitiser").hide();
+        $("#gloves").show();
+      });
+      $("#wipes-tab").click(function () {
+        $("#mask-tab li").removeClass("on");
+        $("#gowns-tab li").removeClass("on");
+        $("#gloves-tab li").removeClass("on");
+        $("#sanitiser-tab li").removeClass("on");
+        $("#wipes-tab li").addClass("on");
+        $("#mask").hide();
+        $("#gowns").hide();
+        $("#gloves").hide();
+        $("#sanitiser").hide();
+        $("#wipes").show();
+      });
+      $("#sanitiser-tab").click(function () {
+        $("#mask-tab li").removeClass("on");
+        $("#gowns-tab li").removeClass("on");
+        $("#gloves-tab li").removeClass("on");
+        $("#wipes-tab li").removeClass("on");
+        $("#sanitiser-tab li").addClass("on");
+        $("#mask").hide();
+        $("#gowns").hide();
+        $("#gloves").hide();
+        $("#wipes").hide();
+        $("#sanitiser").show();
+      });
+    });
+
+    function getQueryString(name) {
+      let reg = new RegExp('(?:(?:&|\\?)' + name + '=([^&]*))|(?:/' + name + '/([^/]*))', 'i');
+      let r = window.location.href.match(reg);
+      if (r != null)
+        return decodeURI(r[1] || r[2]);
+      return null;
+    } 
+  </script>
+</head>
+
+<body>
+
+  <div class="smallest-screen"></div>
+
+  <div class="webmain">
+
+    <div class="header">
+      <div class="content">
+        <a href="#">
+          <div class="logo"><img src="images/logo.png"></div>
+        </a>
+        <div class="nav_handle"><em class="middle_holder"></em><b class="middle"><i class="l_1"></i><i
+              class="l_2"></i></b></div>
+        <div class="inmuen">
+          <ul>
+            <li><a href="index.html" class="on">HOME</a></li>
+            <li><a href="index.html#aboutUs">ABOUT</a></li>
+            <li><a href="index.html#productDisplay">PRODUCT</a></li>
+            <li><a href="index.html#contactUs">CONTACT</a></li>
+            </li>
+            <div class="clean"></div>
+          </ul>
+        </div>
+        <div class="clean"></div>
+      </div>
+    </div>
+
+
+
+    <div class="wapbanner">
+      <div>
+        <div><img src="images/banner-pro.jpg"></div>
+      </div>
+      <div class="pagination"></div>
+    </div>
+
+    <div class="content">
+      <div class="nyabout-box">
+        <div class="nytop"></div>
+        <div class="nyabout">
+          <div class="nynav">
+            <div class="nynav-t">
+              <p class="en">PRODUCT CENTER</p>
+            </div>
+            <ul class="nynav-i">
+              <span id="mask-tab">
+                <li>Mask<i class="fa fa-angle-double-right"></i></li>
+              </span>
+              <span id="gowns-tab">
+                <li>Gowns<i class="fa fa-angle-double-right"></i></li>
+              </span>
+              <span id="gloves-tab">
+                <li>Gloves<i class="fa fa-angle-double-right"></i></li>
+              </span>
+              <span id="wipes-tab">
+                <li>Wipes<i class="fa fa-angle-double-right"></i></li>
+              </span>
+              <span id="sanitiser-tab">
+                <li>Sanitiser<i class="fa fa-angle-double-right"></i></li>
+              </span>
+              <div class="clean"></div>
+            </ul>
+          </div>
+
+          <div class="nycontent">
+            <div class="weizhi">
+              <div class="content">
+              </div>
+            </div>
+            <div class="nypro" id="mask">
+              <ul class="nypro-ul">
+                <li><a target="_blank" href="pdf/eg.pdf">
+                    <img src="images/example/e1.jpg">
+                    <p>Mask</p>
+                  </a></li>
+                <div class="clean"></div>
+              </ul>
+            </div>
+            <div class="nypro" id="gowns">
+              <ul class="nypro-ul">
+                <li><a target="_blank" href="pdf/eg.pdf">
+                    <img src="images/example/e2.jpg">
+                    <p>Gowns</p>
+                  </a></li>
+                <div class="clean"></div>
+              </ul>
+            </div>
+            <div class="nypro" id="gloves">
+              <ul class="nypro-ul">
+                <li><a target="_blank" href="pdf/eg.pdf">
+                    <img src="images/example/e3.jpg">
+                    <p>Gloves</p>
+                  </a></li>
+                <div class="clean"></div>
+              </ul>
+            </div>
+            <div class="nypro" id="wipes">
+              <ul class="nypro-ul">
+                <li><a target="_blank" href="pdf/eg.pdf">
+                    <img src="images/example/e4.jpg">
+                    <p>Wipes</p>
+                  </a></li>
+                <div class="clean"></div>
+              </ul>
+            </div>
+            <div class="nypro" id="sanitiser">
+              <ul class="nypro-ul">
+                <li><a target="_blank"href="pdf/eg.pdf">
+                    <img src="images/example/e5.jpg">
+                    <p>Sanitiser</p>
+                  </a></li>
+                <div class="clean"></div>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="clean"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer">
+      <div class="content">
+        <div class="footer-c">
+          <div class="footer-c-t">
+            <p>Sitemap</p>
+            <span></span>
+          </div>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">PRODUCT</a></li>
+            <li><a target="_blank" href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm">FDA
+                VEFIRICATION</a></li>
+            <li><a target="_blank"
+                href="https://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=directive.notifiedbody&dir_id=13">CE
+                VEFIRICATION</a></li>
+          </ul>
+        </div>
+        <div id="contactUs" class="footer-c">
+          <div class="footer-c-t">
+            <p>Contact us</p>
+            <span></span>
+          </div>
+          <div class="footer-c-b">
+            <p style="height: 30px; line-height: 30px;"><i class="fa fa-user"></i>Peng Wang</p>
+            <p style="height: 30px; line-height: 30px;"><i class="fa fa-map-marker"></i>Room 307, UNIT 1,
+              YULAN, CENTER YUJING, NO.13 DAGONG STREET,<br /> </p>
+            <p class="addr-sty" tyle="height: 30px; line-height: 30px;">ZHONGSHAN DISTRICT, DALIAN, CHINA.
+            </p>
+            <p style="height: 30px; line-height: 30px;"><i class="fa fa-envelope"></i>wangpeng@vdka6100.com.cn
+            </p>
+            <p style="height: 30px; line-height: 30px;"><i class="fa fa-fax"></i>+8613998636796</p>
+          </div>
+        </div>
+        <div class="clean"></div>
+        <div class="banq">Copyright © 2008-2020 Dalian BAOTA Trading co. ,Ltd. All rights reserved.</div>
+      </div>
+    </div>
+
+    <div class="page-down"><i class="fa fa-angle-up"></i></div>
+    <script type="text/javascript" src="js/web.js"></script>
+    <script type="text/javascript" src="js/bideo.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </div>
+
+</body>
+
+</html>

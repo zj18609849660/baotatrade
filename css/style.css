@@ -149,7 +149,7 @@ img {max-width: 100%;}
 .nynav-t .en {font-size: 20px; color: rgb(64, 77, 94);}
 
 .nynav-i {display: block; margin: 20px 0;}
-.nynav-i li {transition: all 0.3s; position: relative; width: 100%; border-bottom: 1px solid #d0d0d0; font-size: 14px; height: 40px; line-height: 40px; box-sizing: border-box; padding: 0 10px; overflow: hidden;}
+.nynav-i li {transition: all 0.3s; position: relative; width: 100%; border-bottom: 1px solid #d0d0d0; font-size: 14px; height: 40px; line-height: 40px; box-sizing: border-box; padding: 0 10px; overflow: hidden;cursor: pointer;}
 .nynav-i li i {font-size: 16px; color: #fff; position: absolute; right: 10px; top: 0; line-height: 40px;}
 .nynav-i li:hover {background-color: #0069ab; color: #fff;}
 .nynav-i .on {background-color: #0069ab; color: #fff;}
