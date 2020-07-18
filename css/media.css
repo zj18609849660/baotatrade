@@ -69,10 +69,12 @@
 .inadv-li {margin-top: 0px;}
 
 .nyabout-box { margin-top: -20px; }
+.prd-category{margin-left: 15%; margin-right: 15%;}
 
 }
 @media only screen and (max-width : 850px) {
 .nycase ul li .nyholipic {padding: 15px;}
+.prd-category{margin-left: 15%; margin-right: 15%;}
 
 
 }
