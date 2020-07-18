@@ -123,6 +123,7 @@
 .banner-text a {margin: 10px auto 0; height: 30px; line-height: 30px; width: 100px;}
 .inadv-li {width: 100%; margin: 5px 0;}
 .prd-category{margin-left: 15%; margin-right: 15%;}
+.addr-sty{padding-left: 7%;}
 }
 @media only screen and (max-width : 480px) {
 .banner-text {margin-top: -40px;}
@@ -134,6 +135,7 @@
 .nypro-ul li {width: 49%; margin-right: 2%; padding: 10px; margin-top: 5px; margin-bottom: 5px;}
 .nypro-ul li:nth-child(2n) {margin-right: 0px;}
 .prd-category{margin-left: 15%; margin-right: 15%;}
+.addr-sty{padding-left: 7%;}
 }
 @media only screen and (max-width : 450px) {
 
