@@ -151,7 +151,7 @@ img {max-width: 100%;}
 .nycontent-c {width: 100%; box-sizing: border-box; padding: 20px 0;}
 .nypro-ul {display: block; padding: 20px 0;}
 .nypro-ul li {display: inline-block; box-sizing: border-box; padding: 15px; border: 1px solid rgb(238, 238, 238); width: 32%; margin-right: 2%; margin-bottom: 10px; margin-top: 10px; transition: all 0.3s; float: left;}
-.nypro-ul li img {display: block; width: 100%; height: auto;}
+.nypro-ul li img {display: block; width: 100%; }
 .nypro-ul li p {font-size: 14px; color: #5a5a5a; font-weight: block; text-align: center; line-height: 30px;}
 .nypro-ul li:hover {border: 1px solid #0069ab;}
 
@@ -215,3 +215,10 @@ img {max-width: 100%;}
 .nymess .nr .tijiao:hover{ background: #8cd635; }
 .prd-category{margin-left: 25%; margin-right: 15%;}
 .addr-sty{padding-left: 4%;}
+.prd-img-md{
+    height: 200px;
+}
+
+.prd-cat-md{
+    height: 180px;
+}

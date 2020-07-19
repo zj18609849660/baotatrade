@@ -23,7 +23,13 @@
 		color: rgb(255, 255, 255);
 		line-height: 20px;
 		height: 66px;
-	}
+    }   
+    .prd-img-xs{
+        height: 200px;
+    }
+    .prd-cat-xs{
+        height: 120px;
+    }
 }
 @media only screen and (max-width : 910px) {
 .header{ padding: 0; }
@@ -75,6 +81,12 @@
 
 .nyabout-box { margin-top: -20px; }
 .prd-category{margin-left: 15%; margin-right: 15%;}
+.prd-img-xs{
+    height: 150px;
+}
+.prd-cat-xs{
+    height: 120px;
+}
 
 }
 @media only screen and (max-width : 850px) {
@@ -88,7 +100,15 @@
     line-height: 20px;
     height: 66px;
 }
-
+.min-text{
+    line-height: 23px;
+}
+.prd-img-xs{
+    height: 150px;
+}
+.prd-cat-xs{
+    height: 120px;
+}
 }
 @media only screen and (max-width : 640px) {
 .wapbanner{ background: #000;}
@@ -138,6 +158,15 @@
 .inadv-li {width: 100%; margin: 5px 0;}
 .prd-category{margin-left: 15%; margin-right: 15%;}
 .addr-sty{padding-left: 7%;}
+.min-text{
+    line-height: 23px;
+}
+.prd-img-xs{
+    height: 150px;
+}
+.prd-cat-xs{
+    height: 120px;
+}
 }
 @media only screen and (max-width : 480px) {
 .banner-text {margin-top: -24px;margin-right: 60px;}
@@ -150,6 +179,15 @@
 .nypro-ul li:nth-child(2n) {margin-right: 0px;}
 .prd-category{margin-left: 15%; margin-right: 15%;}
 .addr-sty{padding-left: 7%;}
+.min-text{
+    line-height: 23px;
+}
+.prd-img-xs{
+    height: 150px;
+}
+.prd-cat-xs{
+    height: 120px;
+}
 }
 @media only screen and (max-width : 450px) {
 
