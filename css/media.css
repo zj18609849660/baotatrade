@@ -1,15 +1,4 @@
 ﻿@charset "utf-8";
-/*!
- * 米维建站  一建轻松建站
- * 详尽信息请看官网：http://www.miwinfo.com/
- *
- * Copyright 2014 米维建站
- *
- * 请尊重原创，保留头部版权
- * 仅供学习参考使用，不可用于任何商业用途
- *
- * 客服QQ 974837117
- */
 @media only screen and (max-width : 1400px) {
 	.banner-text {margin-top: -160px;}
 }
@@ -27,7 +16,14 @@
 .inabout-text-b {margin-top: 30px;}
 }
 @media only screen and (max-width : 1024px) {
-
+	.inadv-p2 {
+		font-size: 14px;
+		display: block;
+		margin-top: 20px;
+		color: rgb(255, 255, 255);
+		line-height: 20px;
+		height: 66px;
+	}
 }
 @media only screen and (max-width : 910px) {
 .header{ padding: 0; }
@@ -63,10 +59,19 @@
 .nymess .nr .li{ width: 100%;  padding: 0 0 0 35px;}
 .nymess .nr .li1{ width: 100%;  padding: 0 0 0 35px;}
 
-.banner-text {margin-top: -100px;}
+.banner-text {    margin-top: -58px;margin-right: 80px;}
 .inadv {height: auto; padding: 30px 0;}
 .inadv-ul {position: static;}
 .inadv-li {margin-top: 0px;}
+.inadv-p2 {
+    font-size: 14px;
+    display: block;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    height: 66px;
+}
+
 
 .nyabout-box { margin-top: -20px; }
 .prd-category{margin-left: 15%; margin-right: 15%;}
@@ -75,7 +80,14 @@
 @media only screen and (max-width : 850px) {
 .nycase ul li .nyholipic {padding: 15px;}
 .prd-category{margin-left: 15%; margin-right: 15%;}
-
+.inadv-p2 {
+    font-size: 14px;
+    display: block;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    height: 66px;
+}
 
 }
 @media only screen and (max-width : 640px) {
@@ -128,7 +140,7 @@
 .addr-sty{padding-left: 7%;}
 }
 @media only screen and (max-width : 480px) {
-.banner-text {margin-top: -40px;}
+.banner-text {margin-top: -24px;margin-right: 60px;}
 .banner-p2 {display: none;}
 .nynav-i li {width: 48%; margin: 0 1%; display: inline-block; float: left;}
 .nyabout {padding: 0 14px 14px;}
