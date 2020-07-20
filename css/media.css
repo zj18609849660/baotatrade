@@ -167,6 +167,12 @@
 .prd-cat-xs{
     height: 120px;
 }
+.nynav-i li {
+    width: 100%;
+    margin: 0 1%;
+    display: inline-block;
+    float: left;
+}
 }
 @media only screen and (max-width : 480px) {
 .banner-text {margin-top: -24px;margin-right: 60px;}
@@ -187,6 +193,12 @@
 }
 .prd-cat-xs{
     height: 120px;
+}
+.nynav-i li {
+    width: 100%;
+    margin: 0 1%;
+    display: inline-block;
+    float: left;
 }
 }
 @media only screen and (max-width : 450px) {
