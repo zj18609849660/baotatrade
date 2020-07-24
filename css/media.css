@@ -35,7 +35,11 @@
 .header{ padding: 0; }
 .header-t {display: none;}
 .header .logo{ padding: 5px 0; }
-.header .logo img{ height: 40px; width: auto; }
+.header .logo img{ 
+    height: 20px;
+    width: auto;
+    padding-top: 10%;
+}
 .nav_handle{ display: block; }
 .header .inmuen{ float: none; clear: both; display: none;}
 .header .inmuen ul li{ float: none; }
