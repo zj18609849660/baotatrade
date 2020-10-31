@@ -195,6 +195,12 @@
 .prd-img-xs{
     height: 150px;
 }
+
+.partner-img-xs{
+    height: 380px;
+    width: 100%;
+}
+
 .prd-cat-xs{
     height: 120px;
 }
