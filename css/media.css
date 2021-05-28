@@ -177,6 +177,10 @@
     display: inline-block;
     float: left;
 }
+.special-partner-logo{
+    position:relative;
+    left:12%
+}
 }
 @media only screen and (max-width : 480px) {
 .banner-text {margin-top: -24px;margin-right: 60px;}
@@ -209,6 +213,10 @@
     margin: 0 1%;
     display: inline-block;
     float: left;
+}
+.special-partner-logo{
+    position:relative;
+    left:12%
 }
 }
 @media only screen and (max-width : 450px) {
